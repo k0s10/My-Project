@@ -1,4 +1,4 @@
-﻿@Library('jenkins_libs') _
+﻿@Library('jenkins-libs') _
 
 gitsync.Выполнить(AGENT: "windows",
         V8VERSION: "8.3.12")
