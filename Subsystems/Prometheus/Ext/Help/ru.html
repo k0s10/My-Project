@@ -1,0 +1,12 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link><meta name="GENERATOR" content="MSHTML 11.00.9600.18921"></meta></head><body>
+<p>Пример конфигурации раздела scrape_configs файла prometheus.yml:</p>
+<p>- job_name: 'odin_ass'</p>
+<p>#Частота опроса 1С-а</p>
+<p>  scrape_interval: '15s'</p>
+<p># Часть URL с путем на сервере</p>
+<p>  metrics_path: '/publication_name/ns/http_service_root_url/template_url'</p>
+<p># Конфигурация  Endpoint</p>
+<p>  static_configs:</p>
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+<p>- tagrets: ['server_name:server:port']</p></blockquote>
+<p> </p></body></html>
